@@ -239,8 +239,27 @@ margin-right: 50px;
   margin-right: auto;
   justify-content: space-between;
 }
-
+/* .icon-first::before {
+  background-image: url('../images/satelit.svg')
+}
+.icon-first {
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+  padding: 25px 100px;
+}
+.icon-second::before {
+  background-image: url('../images/clock.svg')
+}
+.icon-second {
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
+  padding: 25px 100px; */
+}
 .general {
+  background-image: ;
   width: 270px;
   justify-content: space-between;
 }
