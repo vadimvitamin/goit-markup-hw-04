@@ -452,14 +452,12 @@ opacity: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 .card { 
   justify-content: center;
   margin-top: 94px;}
 
-
 .filters-container {
-  text-align: center;
+  /* text-align: center; */
   /* margin-left: 8px; */
 }
 
@@ -477,12 +475,12 @@ justify-content: center;
   border-radius: 4px;
   padding: 6px 22px;
   cursor: pointer;
-  padding-left: 8px;
   letter-spacing: 0.03em
 }
 
 .filters {
-  background-color: #ffffff var(--first-text-color)
+  background: #F5F4FA;
+  border: 1px solid transparent;
 }
 
 .filters:hover {
@@ -494,15 +492,19 @@ justify-content: center;
   height: 38px;
 }
 .btn-two {  
+  margin-left: 8px;
   min-width: 128px;
   height: 38px;}
 .btn-three {  
+ margin-left: 8px;
   width: 145px;
   height: 38px;}
 .btn-four {  
+ margin-left: 8px;
   width: 103px;
   height: 38px;}
 .btn-five {  
+ margin-left: 8px;
   width: 130px;
   height: 38px;}
 
