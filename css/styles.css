@@ -163,14 +163,15 @@ margin-right: 50px;
 }
 .page-main {
 }
+
+/* .cap { 
+  padding-bottom: 94px;
+} */
 .hero {
-  /* height: 600px; */
-  background: #2F303A;
-  margin-bottom: 94px;
-  padding-bottom: 200px;
-  padding-top: 200px;
-}
-.cap {
+    background: #2F303A;
+    /* margin-bottom: 94px; */
+    padding-bottom: 200px;
+    padding-top: 200px;
 }
 
 .hero-title {
