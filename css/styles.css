@@ -169,7 +169,7 @@ margin-right: 50px;
 } */
 .hero {
     background: #2F303A;
-    /* margin-bottom: 94px; */
+    margin-bottom: 94px;
     padding-bottom: 200px;
     padding-top: 200px;
 }
@@ -205,7 +205,7 @@ margin-right: 50px;
   text-align: center;
   letter-spacing: 0.06em;
   border-radius: 4px;
-  padding: 10px 32px;
+  /* padding: 10px 32px; */
   min-width: 200px;
   height: 50px;
   display: block;
@@ -226,41 +226,21 @@ margin-right: 50px;
   padding-bottom: 94px;
 }
 
+
 .general-list-box {
   /* padding-bottom: 94px; */
 }
 
-
+/* .general-list: calc(100 / 4) */
 .general-list {
   display: flex;
-  width: 1200px;
   padding-left: -15px;
   padding-right: -15px;
-  margin-left: auto;
+  /* margin-left: auto;
   margin-right: auto;
-  justify-content: space-between;
-}
-/* .icon-first::before {
-  background-image: url('../images/satelit.svg')
-}
-.icon-first {
-  width: 270px;
-  height: 120px;
-  background-color: #F5F4FA;
-  border-radius: 4px;
-  padding: 25px 100px;
-}
-.icon-second::before {
-  background-image: url('../images/clock.svg')
-}
-.icon-second {
-  width: 270px;
-  height: 120px;
-  background-color: #F5F4FA;
-  padding: 25px 100px; */
+  justify-content: space-between; */
 }
 .general {
-  background-image: ;
   width: 270px;
   justify-content: space-between;
 }
@@ -316,6 +296,7 @@ margin-right: 50px;
 }
 /* НАША КОМАНДА */
 .worker-container {
+  padding-top: 94px;
   padding-bottom: 94px;
   background-color: #F5F4FA;
 }
@@ -325,7 +306,7 @@ margin-right: 50px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-top: 94px;
+  /* padding-top: 94px; */
   padding-bottom: 50px;
   margin: 0;
 }
@@ -536,9 +517,6 @@ justify-content: center;
   /* margin-right: auto; */
   /* border: 1px solid rgb(7, 248, 79) */
 }
-.section {
-  width: 1200px;
-  padding-bottom: 94px;}
 
 .specifics-progects {
   /* outline: 1px solid rgb(115, 13, 231); */
