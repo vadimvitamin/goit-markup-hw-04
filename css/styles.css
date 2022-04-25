@@ -360,6 +360,22 @@ padding-bottom: 30px;
   color: #757575;
 }
 
+.clients {
+}
+.client-header {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+padding-bottom: 50px;
+margin: 0;
+color: var(--first-text-color);
+}
+.client-logos {
+
+}
+
 /* ФУТЕР */
 .page-footer {
   padding-top: 60px;
