@@ -395,6 +395,8 @@ padding-bottom: 30px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   margin: 0;
+  width: 231px;
+  height: 21px;
   /* padding-bottom: 9px; */
   color: #FFFFFF;
 }
@@ -412,6 +414,8 @@ padding-bottom: 30px;
   text-decoration: none;
   padding-bottom: 9px;
   padding-top: 9px;
+  width: 231px;
+  height: 21px;
   color: rgba(255, 255, 255, 0.6)
 }
   .text-email {
@@ -428,6 +432,8 @@ padding-bottom: 30px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
+  width: 231px;
+  height: 21px;
   color: rgba(255, 255, 255, 0.6)
 }
   .text-telephone:hover,
