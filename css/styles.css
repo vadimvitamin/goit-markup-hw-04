@@ -24,13 +24,13 @@
 .page-header {
   background-color: var(--white-text-color);
 }
-header .container {
+header > .container {
   display: flex;
 }
 .container {
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -395,14 +395,14 @@ padding-bottom: 30px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   margin: 0;
-  padding-top: 0;
+  /* padding-bottom: 9px; */
   color: #FFFFFF;
 }
 
-.address:hover,
+/* .address:hover,
 .address:focus {
   color: #2196f3;
-}
+} */
 
 .text-email {
   font-weight: 400;
@@ -411,6 +411,7 @@ padding-bottom: 30px;
   letter-spacing: 0.03em;
   text-decoration: none;
   padding-bottom: 9px;
+  padding-top: 9px;
   color: rgba(255, 255, 255, 0.6)
 }
   .text-email {
@@ -455,7 +456,7 @@ opacity: 0;
 }
 .card { 
   justify-content: center;
-  margin-top: 94px;}
+  padding-top: 94px;}
 
 .filters-container {
   /* text-align: center; */
@@ -529,15 +530,13 @@ justify-content: center;
   /* margin: 0; */
   list-style: none;
 }
-.specifics-progects > .item {
+.specifics-progects >.item {
   flex-basis: calc(100% / 3 -30px);
   margin-left: 30px;
   margin-top: 30px;
 }
-.specifics-progects {
-margin-left: -30px;
-}
 .item {
+
 }
 .cards {
   border: 1px solid #EEEEEE;
