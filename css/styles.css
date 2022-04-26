@@ -386,15 +386,21 @@ padding-bottom: 30px;
   color: #757575;
 }
 
-.social-links {
   /* width: 44px;
   height: 44px; */
   display: flex;
   list-style: none;
 }
+.social-links {
+ 
+}
 .social-icon {
   width: 44px;
   height: 44px;
+}
+/* .button {
+  padding: 0;
+  border: none; */
 }
 /* .social-icon:hover {
   fill: #2196F3;
