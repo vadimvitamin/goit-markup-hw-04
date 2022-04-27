@@ -431,6 +431,26 @@ height: 20px;
   background-color: #2196F3;
 }
 
+.client-header {
+  text-align: center;
+}
+
+.client-logos {
+  display: flex;
+ 
+}
+.clients-logo {
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+list-style: none;
+}
+.clients-icons {
+
+}
+.logo-company {
+
+}
+
 /* ФУТЕР */
 .page-footer {
   padding-top: 60px;
