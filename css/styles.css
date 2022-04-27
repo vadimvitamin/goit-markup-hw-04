@@ -391,14 +391,38 @@ margin-right: 50px;
 .social-links {
   list-style: none;
   text-decoration: none;
+  display: flex;
+  padding: 0%;
+  justify-content: center;
 }
 
-.icons {
+.item-icon {
+  margin-right: 10px;
+  list-style: none;
+}
+/* .item-icon:nth-last-child(4) {
 
+} */
+
+.icons {
+width: 44px;
+height: 44px;
+background-color: #e3ebf1;
+/* border-radius: 50%; */
+display: flex;
+/* padding-right: 32px; */
+justify-content: center;
+align-items: center;
 }
 
 .social-icon {
-
+height: 20px;
+}
+.social-icon {
+  fill: #757575;
+}
+.social-icon.buttons:hover {
+  background-color: #011b30;
 }
 
 /* ФУТЕР */
