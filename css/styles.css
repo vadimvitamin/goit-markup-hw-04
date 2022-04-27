@@ -364,6 +364,7 @@ margin-right: 50px;
 .text {
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: #FFFFFF;
 }
 
 .element:nth-last-child(4n) {
@@ -407,22 +408,27 @@ margin-right: 50px;
 .icons {
 width: 44px;
 height: 44px;
-background-color: #e3ebf1;
-/* border-radius: 50%; */
+background-color: #FFFFFF;
+border-radius: 50%;
 display: flex;
 /* padding-right: 32px; */
 justify-content: center;
 align-items: center;
 }
-
+.icons:hover {
+  background-color: #2196f3;
+}
+.icons {
+  
+}
 .social-icon {
 height: 20px;
 }
 .social-icon {
-  fill: #757575;
+  fill: #FFFFFF;
 }
-.social-icon.buttons:hover {
-  background-color: #011b30;
+.social-icon:hover {
+  background-color: #2196F3;
 }
 
 /* ФУТЕР */
