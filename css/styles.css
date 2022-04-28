@@ -388,7 +388,17 @@ margin-right: 50px;
   letter-spacing: 0.03em;
   color: #757575;
 }
+.mail-logo::before {
+}
+.mail-logo {
+  width: 16px;
+}
+.phone-logo::before {
 
+}
+.phone-logo {
+  width: 16px;
+}
 .social-links {
   list-style: none;
   text-decoration: none;
@@ -437,18 +447,29 @@ height: 20px;
 
 .client-logos {
   display: flex;
+  justify-content: center;
  
 }
 .clients-logo {
+  height: 60px;
+  justify-items: center;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-list-style: none;
+  list-style: none;
 }
-.clients-icons {
-
+.clients-icons:hover {
+  fill: #2196f3;
+}
+.logo-company {
+  height: 60px;
+  padding: 16px 32px;
 }
 .logo-company {
 
+}
+.footer-icon {
+  background-color: #2F303A;
+fill: #ECECEC;
 }
 
 /* ФУТЕР */
