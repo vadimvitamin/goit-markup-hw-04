@@ -272,7 +272,9 @@ margin-right: 50px;
   flex-basis: calc(100% / 4 - 30px);
   margin-right: 30px;
 }
+.ant{
 
+}
 .specifics-title {
   font-weight: 700;
   font-size: 14px;
@@ -444,9 +446,8 @@ height: 20px;
 .client-header {
   text-align: center;
 }
-.footer-soc {
-margin-left: 70px;
-}
+
+
 .client-logos {
   display: flex;
   justify-content: center;
@@ -471,11 +472,19 @@ margin-left: 70px;
 
 }
 .footer-icon {
+  width: 44px;
+  height: 44;
+  border-radius: 50%;
   color: #2196F3;
-fill: #1f0707;
+fill: #071f0e;
 }
 
 /* ФУТЕР */
+
+.flex-container {
+  display: flex;
+}
+
 .page-footer {
   padding-top: 60px;
   padding-bottom: 60px;
