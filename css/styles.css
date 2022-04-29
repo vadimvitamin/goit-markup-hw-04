@@ -444,13 +444,16 @@ height: 20px;
 .client-header {
   text-align: center;
 }
-
+.footer-soc {
+margin-left: 70px;
+}
 .client-logos {
   display: flex;
   justify-content: center;
  
 }
 .clients-logo {
+  margin-right: 30px;
   height: 60px;
   justify-items: center;
   border: 1px solid #AFB1B8;
@@ -468,8 +471,8 @@ height: 20px;
 
 }
 .footer-icon {
-  background-color: #2F303A;
-fill: #ECECEC;
+  color: #2196F3;
+fill: #1f0707;
 }
 
 /* ФУТЕР */
