@@ -272,9 +272,8 @@ margin-right: 50px;
   flex-basis: calc(100% / 4 - 30px);
   margin-right: 30px;
 }
-.ant{
-
-}
+/* .ant{
+} */
 .specifics-title {
   font-weight: 700;
   font-size: 14px;
