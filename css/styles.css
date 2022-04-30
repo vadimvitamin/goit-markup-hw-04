@@ -11,7 +11,9 @@
 .h4,
 .h5,
 .h6,
-.p {
+.p,
+a
+{
   margin: 0;
 }
 
@@ -192,8 +194,6 @@ margin-right: 50px;
 .hero {
   background: #C4C4C4;
   background-image: url(../images/Img-backround-hero.jpg);
-  
-  margin-bottom: 94px;
   padding-bottom: 200px;
   padding-top: 200px;
 }
