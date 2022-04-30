@@ -161,7 +161,9 @@ margin-right: 50px;
 .email-header:focus {
   color: var(--blue-text-color);
 }
-
+/* .email-header::before {
+  
+} */
 .tel-header {
   font-family: 'Roboto';
   font-style: normal;
