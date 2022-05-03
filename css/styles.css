@@ -485,18 +485,22 @@ list-style: none;
 .client-logos {
   display: flex;
   justify-content: center;
- 
+ list-style: none;
+ padding: 0;
 }
 .clients-logo {
-  margin-right: 30px;
-  height: 60px;
+  background-color: #ffffff;
+  /* margin-right: 30px; */
   justify-items: center;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  list-style: none;
+ 
 }
 .clients-icons:hover {
   fill: #2196f3;
+}
+.clients-icons {
+  justify-content: space-between;
 }
 .logo-company {
   height: 60px;
