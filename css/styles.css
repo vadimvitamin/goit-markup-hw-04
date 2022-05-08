@@ -570,6 +570,7 @@ fill: #071f0e;
 } */
 
 .text-email {
+  display: block;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -592,6 +593,7 @@ fill: #071f0e;
 }
 
 .text-telephone {
+  display: block;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
