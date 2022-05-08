@@ -546,8 +546,8 @@ fill: #071f0e;
 
 .text-address {
   font-style: normal;
-  /* display: block; */
-  margin: 0;
+  display: block;
+  /* margin: 0; */
   color: var(--white-text-color);
 }
 
