@@ -545,6 +545,7 @@ fill: #071f0e;
 }
 
 .text-address {
+  /* height: 81px; */
   font-style: normal;
   display: block;
   /* margin: 0; */
@@ -557,7 +558,7 @@ fill: #071f0e;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin: 0;
+  /* margin: 0; */
   width: 231px;
   height: 21px;
   /* padding-bottom: 9px; */
@@ -576,8 +577,8 @@ fill: #071f0e;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
-  padding-bottom: 9px;
-  padding-top: 9px;
+  margin-bottom: 9px;
+  margin-top: 9px;
   width: 231px;
   height: 21px;
   color: rgba(255, 255, 255, 0.6)
