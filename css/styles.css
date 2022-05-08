@@ -294,13 +294,13 @@ margin-right: 50px;
   height: 120px;
 background: #F5F4FA;
 border-radius: 4px;
-
+margin-bottom: 30px;
 }
 .icon-box {
-  
    width: 70px; height: 70px;
 }
 .ant {
+  
 /* background-position: center; */
 
 }
@@ -486,12 +486,14 @@ list-style: none;
 .client-logos {
   display: flex;
   justify-content: center;
+  
  list-style: none;
  padding: 0;
 }
 .clients-logo {
   background-color: #ffffff;
   /* margin-right: 30px; */
+
   justify-items: center;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
