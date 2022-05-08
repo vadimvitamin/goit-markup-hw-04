@@ -7,7 +7,8 @@
 
 /* ОБНУЛЯЄМО СТИЛІ */
 .h1,
-.h2 .h3,
+.h2,
+.h3,
 .h4,
 .h5,
 .h6,
@@ -530,15 +531,13 @@ fill: #071f0e;
   color: var(--white-text-color);
 }
 
-.page-footer {}
-
 .logo-footer {
   font-family: 'raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19em;
   letter-spacing: 0.03em;
-  display: flex;
+  display: block;
   justify-content: flex-start;
   color: var(--blue-text-color);
   text-decoration: none;
@@ -547,7 +546,8 @@ fill: #071f0e;
 
 .text-address {
   font-style: normal;
-  /* padding-bottom: 9px; */
+  /* display: block; */
+  margin: 0;
   color: var(--white-text-color);
 }
 
