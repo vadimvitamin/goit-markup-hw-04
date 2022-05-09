@@ -205,7 +205,10 @@ margin-right: 50px;
 } */
 .hero {
   background: #C4C4C4;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/Img-backround-hero.jpg);
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4), 
+    rgba(47, 48, 58, 0.4)),
+    url(../images/Img-backround-hero.jpg);
   padding-bottom: 200px;
   padding-top: 200px;
 }
@@ -578,7 +581,7 @@ fill: #071f0e;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* margin: 0; */
+  margin: 0;
   width: 231px;
   height: 21px;
   /* padding-bottom: 9px; */
