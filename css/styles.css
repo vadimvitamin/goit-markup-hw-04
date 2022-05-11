@@ -577,6 +577,17 @@ fill: #071f0e;
   display: flex;
 }
 
+.join {
+  padding-top: 72px;
+}
+
+.x {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
 .page-footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -668,6 +679,7 @@ fill: #071f0e;
 .footer-soc-links {
   display: flex;
 list-style: none;
+justify-content: center;
 }
 /* .footer-item-icons {
       flex-basis: calc(100% / 4 -30px);
