@@ -503,6 +503,11 @@ list-style: none;
  list-style: none;
  padding: 0;
 }
+ /* .clients-box {
+  flex-basis: calc(100% / 6 -30px);
+  margin-right: 30px;
+ }   */
+
 .clients-box +.clients-box {
   margin-left: 30px;
 }
@@ -646,6 +651,26 @@ fill: #071f0e;
 .text-telephone:focus {
   color: #2196f3;
 }
+.footer-container {
+  display: flex;
+}
+.footer-soc-links {
+  display: flex;
+list-style: none;
+}
+.footer-item-icons {
+  width: 44px;
+  height: 44px;
+  
+}
+.footer-icons {
+
+}
+.footer-soc-icon {
+  width: 20px;
+  height: 20px;
+}
+
 
 
 /* ПОРТФОЛІО */
