@@ -6,13 +6,13 @@
 }
 
 /* ОБНУЛЯЄМО СТИЛІ */
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-.p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
 a
 {
   margin: 0;
@@ -420,6 +420,8 @@ margin-bottom: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  margin-top: 30px;
+  margin-bottom: 10px;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--first-text-color);
@@ -783,8 +785,7 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.03em;
-  margin: 0;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
   color: var(--first-text-color);
 }
 
