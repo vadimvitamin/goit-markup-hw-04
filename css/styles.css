@@ -517,8 +517,14 @@ list-style: none;
  list-style: none;
  padding: 0;
 }
+.client-logos:hover {
+  color: #2196f3;
+}
 .clients-box:hover {
-  fill: #2196F3;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #2196F3;
+  border-radius: 4px;
 }
  .clients-box {
   flex-basis: calc(100% / 6 -30px);
