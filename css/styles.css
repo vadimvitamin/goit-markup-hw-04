@@ -154,7 +154,9 @@ margin-right: 50px;
 .conection {
   align-items: center;
 }
-
+.conection:hover {
+  fill: #2196f3;
+}
 .email-header {
   font-family: 'Roboto';
   font-style: normal;
@@ -198,7 +200,11 @@ margin-right: 50px;
   ;
 }
 .svg-container {
+  color: #757575;
   margin-right: 10px;
+}
+.svg-container:hover {
+  fill: #2196F3;
 }
 .page-main {}
 
@@ -413,6 +419,7 @@ justify-content: center;
 .photo {}
 
 .text {
+  padding-top: 16px;
   padding-bottom: 30px;
   background-color: #FFFFFF;
 }
@@ -505,7 +512,8 @@ list-style: none;
 .client-logos {
   display: flex;
   justify-content: center;
-  
+  margin-top: 50px;
+  margin-bottom: 0;
  list-style: none;
  padding: 0;
 }
