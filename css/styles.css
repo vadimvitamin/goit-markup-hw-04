@@ -117,13 +117,13 @@ header>.container {
 .header-link.current {
   color: var(--blue-text-color);
 }
-.mail-logo::before {}
 
-.mail-logo {}
-
-.phone-logo::before {}
-
-.phone-logo {}
+.email:hover {
+color: var(--blue-text-color);
+}
+.tel:hover {
+color: var(--blue-text-color);
+}
 
 .contacts {
   display: flex;
@@ -142,6 +142,7 @@ header>.container {
 .contacts:focus {
   color: #2196f3;
 }
+
 
 .contacts .conection+.conection {
   margin-left: 50px;
@@ -179,6 +180,7 @@ margin-right: 50px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  margin-right: 30px;
   color: grey;
   text-decoration: none;
 }
@@ -466,6 +468,8 @@ display: block;
 }
 .icons:hover {
   background-color: #2196F3;
+  color: #FFFFFF;
+  fill: #FFFFFF;
 
 }
 .icons {
@@ -480,7 +484,6 @@ height: 20px;
 
 }
 .social-icon {
- 
 list-style: none;
   fill: #FFFFFF;
 }
