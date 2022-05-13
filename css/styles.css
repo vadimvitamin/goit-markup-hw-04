@@ -812,7 +812,7 @@ opacity: 0;
     background-color: #2196f3;
       color: #ffffff;
 }
-.filter:focus {
+.filters:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
