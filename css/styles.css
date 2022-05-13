@@ -472,21 +472,24 @@ justify-content: center;
 } */
 
 .icons {
-width: 44px;
-height: 44px;
-background-color: #ffffff;
-/* color: #AFB1B8; */
-border-radius: 50%;
-display: block;
-/* padding-right: 32px; */
-/* justify-content: center; */
-/* align-items: center; */
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  fill: #AFB1B8;
+  border-radius: 50%;
+  display: block;
 }
+
 .icons:hover,
 .icons:focus {
   background-color: #2196F3;
   fill: #FFFFFF;
-
+}
+.icons:hover .social-icon {
+  fill: #FFFFFF;
+}
+.icons:focus .social-icon {
+  fill: #FFFFFF;
 }
 .icons {
   display: flex;
@@ -496,13 +499,12 @@ display: block;
   margin: 12px;
   width: 20px;
 height: 20px;
-
-
 }
-.social-icon {
+
+/* .social-icon {
 list-style: none;
   fill: #AFB1B8;
-}
+} */
 .social-icon:hover,
 .social-icon:focus {
   /* background-color: #2196F3; */
@@ -529,12 +531,12 @@ list-style: none;
  list-style: none;
  padding: 0;
 }
-.client-logos:focus,
+/* .client-logos:focus,
 .client-logos:hover {
   color: #2196f3;
-}
+} */
 .clients-box:focus,
-.clients-box:hover {
+.clients-box:hover  {
   width: 170px;
   height: 92px;
   border: 1px solid #2196F3;
@@ -544,7 +546,10 @@ list-style: none;
   flex-basis: calc(100% / 6 -30px);
   margin-right: 30px;
  }  
-
+/* .clients-box:hover,
+.clients-box:focus .clients-icons {
+  fill: #2196F3;
+} */
 /* .clients-box +.clients-box {
   margin-left: 30px;
 } */
@@ -558,17 +563,10 @@ list-style: none;
       border: 1px solid #AFB1B8;
       border-radius: 4px;
 }
-/* .border-box {
-  box-sizing: border-box;
-  
-    position: absolute;
-    width: 170px;
-    height: 92px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-} */
+
 .clients-logo {
   background-color: #ffffff;
+  fill: #757575;
   /* margin-right: 30px; */
   justify-items: center;
   /* border: 1px solid #AFB1B8;
@@ -576,6 +574,7 @@ list-style: none;
 }
 /* .clients-logo:hover,
 .clients-logo:focus {
+  fill: #2196F3;
 } */
 .join {
   margin-left: 70px;
@@ -739,7 +738,7 @@ padding: 0;
 }
 .footer-icons:hover,
 .footer-icons:focus {
-
+fill: #FFFFFF;
 }
 .footer-icons {
   width: 44px;
