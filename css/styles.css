@@ -204,13 +204,12 @@ margin-right: 50px;
   ;
 }
 .svg-container {
-  fill: #757575;
+  fill: currentColor;
   margin-right: 10px;
 }
-.svg-container:hover,
-.svg-container:focus {
+/* .svg-container:hover {
   fill: #2196F3;
-}
+} */
 .page-main {}
 
 /* .cap { 
