@@ -557,6 +557,7 @@ list-style: none;
       border: 1px solid #AFB1B8;
       border-radius: 4px;
 }
+
 .clients-box:focus,
 .clients-box:hover {
   width: 170px;
@@ -564,6 +565,19 @@ list-style: none;
   border: 1px solid #2196F3;
   border-radius: 4px;
 }
+/* .clients-logo {
+        width: 170px;
+          height: 92px;
+          border: 1px solid #AFB1B8;
+          border-radius: 4px;
+}
+.clients-logo:hover,
+.clients-logo:focus {
+    width: 170px;
+      height: 92px;
+      border: 1px solid #0f3bdb;
+      border-radius: 4px;
+} */
 .clients-logo:hover .clients-box {
   fill: #2196F3;
 }
