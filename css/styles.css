@@ -578,6 +578,7 @@ list-style: none;
       border: 1px solid #0f3bdb;
       border-radius: 4px;
 } */
+
 .clients-logo:hover .clients-box {
   fill: #2196F3;
 }
