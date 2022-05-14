@@ -522,7 +522,6 @@ list-style: none;
   color: #212121;
 }
 
-
 .client-logos {
   display: flex;
   justify-content: center;
@@ -531,109 +530,47 @@ list-style: none;
  list-style: none;
  padding: 0;
 }
-/* .client-logos:focus,
-.client-logos:hover {
-  color: #2196f3;
-} */
-
  .clients-box {
   flex-basis: calc(100% / 6 -30px);
   margin-right: 30px;
  }  
-/* .clients-box:hover,
-.clients-box:focus .clients-icons {
-  fill: #2196F3;
-} */
-/* .clients-box +.clients-box {
-  margin-left: 30px;
-} */
-.clients-box {
-  padding: 16px 32px;
-}
-.clients-box {
-    /* box-sizing: border-box; */
-      width: 170px;
-      height: 92px;
-      border: 1px solid #AFB1B8;
-      border-radius: 4px;
-}
 
-.clients-box:focus,
-.clients-box:hover {
-  width: 170px;
-  height: 92px;
-  border: 1px solid #2196F3;
-  border-radius: 4px;
+.clients-logo:hover {
+border: 1px solid #2196f3;
 }
-/* .clients-logo {
-        width: 170px;
-          height: 92px;
-          border: 1px solid #AFB1B8;
-          border-radius: 4px;
-}
-.clients-logo:hover,
 .clients-logo:focus {
-    width: 170px;
-      height: 92px;
-      border: 1px solid #0f3bdb;
-      border-radius: 4px;
-} */
-
-.clients-logo:hover .clients-box {
-  fill: #2196F3;
+  border: 1px solid #2196F3;
 }
 
-.clients-logo:focus .clients-box {
-  fill: #2196F3;
-}
 .clients-logo {
   background-color: #ffffff;
   fill: #757575;
   /* margin-right: 30px; */
-  justify-items: center;
-    width: 170px;
-      height: 92px;
-      border: 1px solid #ffffff;
- 
+  justify-content: center;
+  display: block;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
 }
-/* .clients-logo:hover,
-.clients-logo:focus {
+
+/* .clients-icons:hover {
+  fill: #2196F3;
+}
+.clients-icons {
   fill: #2196F3;
 } */
-.clients-logo:hover .clirnts-icons {
-  fill: #2196F3;
-}
-.clients-logo:focus .clients-icons {
-  fill: #2196F3;
-}
-.join {
-  margin-left: 70px;
-}
-.x {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-}
+
+
 .clients-icons:hover,
-.clients-icons:focus {
+.clients-icons:focus .clients-logo {
   fill: #2196f3;
 }
 .clients-icons {
-
-
+  margin: 16px 32px;
   fill: #AFB1B8;
   justify-content: space-between;
 }
-.logo-company {
-  height: 60px;
-  padding: 16px 32px;
-}
-.logo-company {
-
-}
-
 
 /* ФУТЕР */
 
@@ -642,6 +579,7 @@ list-style: none;
 }
 
 .join {
+  margin-left: 70px;
   width: 206px;
   padding-top: 12px;
 }
@@ -693,11 +631,6 @@ list-style: none;
   /* padding-bottom: 9px; */
   color: #FFFFFF;
 }
-
-/* .address:hover,
-.address:focus {
-  color: #2196f3;
-} */
 
 .text-email {
   display: block;
