@@ -560,17 +560,22 @@ border: 1px solid #2196f3;
 .clients-icons {
   fill: #2196F3;
 } */
-
-
-.clients-icons:hover,
-.clients-icons:focus .clients-logo {
-  fill: #2196f3;
-}
 .clients-icons {
   margin: 16px 32px;
   fill: #AFB1B8;
   justify-content: space-between;
 }
+.clients-logo:hover .clients-icons {
+  fill: #2196f3;
+}
+.clients-logo:focus .clients-icons {
+    fill: #2196f3;
+}
+/* .clients-icons:hover,
+.clients-icons:focus .clients-logo {
+  fill: #2196f3;
+} */
+
 
 /* ФУТЕР */
 
