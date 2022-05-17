@@ -852,6 +852,7 @@ opacity: 0;
 .item {}
 
 .cards {
+  cursor: pointer;
   border: 1px solid #EEEEEE;
   /* box-shadow: #EEEEEE */
 }
