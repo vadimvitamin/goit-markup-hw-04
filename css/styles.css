@@ -124,11 +124,11 @@ color: var(--blue-text-color);
 .contacts {
   display: flex;
   justify-content: flex-end;
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  /* font-family: 'Roboto'; */
+  /* font-weight: 500; */
+  /* font-size: 14px; */
+  /* line-height: 1.14; */
+  /* letter-spacing: 0.02em; */
   margin-left: auto;
   align-items: center;
   color: var(--secondary-text-color);
@@ -156,8 +156,10 @@ margin-right: 50px;
   fill: #2196f3;
 } */
 .email-header {
-  font-family: 'Roboto';
-  font-style: normal;
+  display: flex;
+  align-items: center;
+  /* font-family: 'Roboto';
+  font-style: normal; */
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -174,6 +176,8 @@ margin-right: 50px;
   
 } */
 .tel-header {
+  display: flex;
+  align-items: center;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
