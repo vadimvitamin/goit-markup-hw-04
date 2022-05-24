@@ -253,7 +253,7 @@ margin-right: 50px;
 }
 
 /* ОСОБЕННОСТИ INDEX*/
-.qwe {
+.section-padding-top {
   padding-top: 94px;
 }
 .section {
@@ -463,9 +463,6 @@ fill: currentColor;
 .social-icon:hover,
 .social-icon:focus {
   fill:#FFFFFF
-}
-.cl-box {
-  padding-bottom: 94px;
 }
 .client-header {
   font-weight: 700;
