@@ -12,7 +12,7 @@ h3,
 h4,
 h5,
 h6,
-p,
+p
 {
   margin: 0;
 }
@@ -523,7 +523,7 @@ color: #2196f3;
   justify-content: flex-start;
   color: var(--blue-text-color);
   text-decoration: none;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .text-address {
